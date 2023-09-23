@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+}
+
+
+body{
+    font-family: Arial, sans-serif;color: whitesmoke;
+    background-image: url("../Imagens/12067352_4884841.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+p {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+#cabecalho {
+  font-size: 16px;
+  border-bottom: 1px #606060 solid;
+  height: 150px;
+  text-align: center;
+}
+
+#foto
+{
+ text-align: center;
+}
+
+
+#topico1{
+  font-size: 22px;
+  text-align: center;
+}
+
+#topico2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+#topico3 {
+  font-size: 22px;
+  text-align: center;
+}
+#topico4 {
+  font-size: 22px;
+  text-align: center;
+}
+#topico5 {
+  font-size: 22px;
+  text-align: center;
+}
+
+#rodape {
+  clear: both;
+  border-top: 1px solid #606060 ;
+  text-align: center;
+}
+#videos {
+  display: block;
+  position: relative;
+  text-align: center;
+}
