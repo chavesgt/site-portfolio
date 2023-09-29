@@ -13,7 +13,6 @@ body{
     background-repeat:no-repeat;
     background-position: center center;
 }
-
 p {
   text-align: justify;
   text-indent: 50px;
@@ -31,6 +30,11 @@ p {
  text-align: center;
 }
 
+#contatos
+{
+  font-size: 20px;
+  text-align: center;
+}
 
 #topico1{
   font-size: 22px;
