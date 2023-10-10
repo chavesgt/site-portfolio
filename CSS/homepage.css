@@ -70,12 +70,14 @@ body{
 
 #videosprojetos{
   text-align: center;
+  display: block;
 }
 
 #video1{
   margin-top: 25px;
   text-align: center;
   margin-bottom: 15px;
+  
   
 }
 
