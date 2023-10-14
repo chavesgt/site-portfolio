@@ -19,6 +19,9 @@ body{
   height: 150px;
   text-align: center;
 }
+
+
+
 #links{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -77,22 +80,32 @@ body{
   text-align: center;
 }
 
+#band{
+  margin-bottom: -8px;
+}
+
+#imgtec {
+  display: block;
+  text-align: center;
+}
+
 #videosprojetos{
   text-align: center;
-  display: block;
 }
 
 #video1{
+  max-width: 30%;
+  position: relative;
   margin-top: 25px;
   text-align: center;
   margin-bottom: 15px;
-  
-  
 }
 
 #video2 {
+  max-width: 30%;
   margin-top: 25px;
   text-align: center;
   margin-bottom: 30px;
+  position: relative;
   
 }
