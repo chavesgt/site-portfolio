@@ -103,16 +103,16 @@ body{
 }
 
 #video1{
-  display: inline;
   margin-top: 20px;
   position: relative;
-  max-width: 50%;
   text-align: center;
+  width: 600px;
+  height: 600px;
 }
 
 #video2{
-  display: inline;
   position: relative;
   text-align: center;
-  max-width: 50%;
+  width: 600px;
+  height: 600px;
 }
