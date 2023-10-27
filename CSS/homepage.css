@@ -103,16 +103,12 @@ body{
 }
 
 #video1{
-  margin-top: 20px;
+  margin-top: 15px;
   position: relative;
   text-align: center;
-  width: 600px;
-  height: 600px;
 }
 
 #video2{
   position: relative;
   text-align: center;
-  width: 600px;
-  height: 600px;
 }
