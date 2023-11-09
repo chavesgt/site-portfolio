@@ -8,14 +8,14 @@
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('../imagens/background6.jpg');
     background-attachment: fixed;
-    background-size: 500px;
+    background-size: 450px;
     background-repeat: no-repeat;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 main{
   background-color: rgba(255, 255, 255, 0.733);
-  max-width: 500px;
+  max-width: 450;
   margin: auto;
   border-radius: 10px;
   
