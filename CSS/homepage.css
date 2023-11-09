@@ -20,7 +20,15 @@ main{
   border-radius: 10px;
   
 }
-
+#cabecalho{
+  color: rgb(226, 231, 226);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  background-image: url('../imagens/backgroundcabecalho1.jpg');
+  background-attachment: local;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  font-size: 30px;
+}
 }
 
 body{
