@@ -10,6 +10,7 @@ body{
     background-size: 1900px;
     background-repeat: no-repeat;
     background-clip: content-box;
+    display: flex;
     
     
 }
