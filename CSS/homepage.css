@@ -8,6 +8,8 @@ body{
     background-attachment: fixed;
     background-size: 2000px;
     background-repeat: no-repeat;
+    display: flex;
+    
 }
 
 main{
