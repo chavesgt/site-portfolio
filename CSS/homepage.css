@@ -44,7 +44,7 @@ main{
 }
 
 #contatos{
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.301);
   margin: 30px;
@@ -67,7 +67,6 @@ h2, h3{
 }
 
 
-
 div > p{
   text-align: justify;
   margin-left: 20px;
@@ -76,7 +75,8 @@ div > p{
   background-color: rgba(255, 255, 255, 0.301);
   line-height: 2em;
   font-size: 23px;
-  margin: 50px;
+  margin: 25px;
+  padding: 35px;
 }
 
 #certificacoes > ul {
