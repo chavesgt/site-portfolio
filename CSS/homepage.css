@@ -48,7 +48,6 @@ main{
   text-align: center;
   background-color: rgba(255, 255, 255, 0.301);
   margin: 30px;
-  line-height: 2.5em;
   font-weight: bold;
 }
 
@@ -96,6 +95,7 @@ div > p{
   text-align: center;
   background-color: rgba(255, 255, 255, 0.301);
   margin: 15px;
+  font-size: 23px;
   
 }
 
@@ -160,6 +160,13 @@ div.video > h2, h3 {
 
 div.video hr {
   margin: 35px;
+}
+
+
+#final{
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: justify;
 }
 
 #rodape {
