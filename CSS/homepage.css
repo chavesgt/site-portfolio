@@ -121,10 +121,6 @@ div > p{
   text-align: center;
 }
 
-#band{
-  margin-bottom: -8px;
-}
-
 #videos{
   text-align: center;
 }
@@ -138,13 +134,6 @@ div > p{
   text-align: center;
 }
 
-#logopython{
-  margin-bottom: -22px;
-}
-
-#logo-angular {
-  margin-bottom: -10px;
-}
 
 div.video{
   margin: 35px;
