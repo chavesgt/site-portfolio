@@ -96,6 +96,7 @@ div > p{
   background-color: rgba(255, 255, 255, 0.301);
   margin: 15px;
   font-size: 23px;
+  padding: 35px;
   
 }
 
@@ -119,6 +120,13 @@ div > p{
   margin: 30px;
   font-size: 20px;
   text-align: center;
+}
+
+#carouselExampleAutoplaying{
+  padding: 0px 100px; 
+  background-color: rgba(255, 255, 255, 0.301);
+  margin: 30px;
+  min-width: 400px;
 }
 
 #videos{
