@@ -5,7 +5,8 @@
   padding: 0px;
 }
 
-body{
+html,body {
+    width: 100vw;
     color:black;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,45 +21,77 @@ body{
 main{
   background-color: rgba(255, 255, 255, 0.733);
   border-radius: 10px;
-  min-width: 300px;
-  max-width: 1000px;
+  width: 90vw;
   margin: auto;
 }
+
 
 #cabecalho{
   color: rgb(248, 248, 248);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   background-image: url('../imagens/backgroundcabecalho1.jpg');
   background-attachment: local;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 30px;
   text-align: center;
   margin: auto;
-  padding: 50px;
+  padding: 60px;
+  margin-top: 25px;
 }
 
-.tituloprincipal{
+.tituloprincipal {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: white;
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
   text-align: center;
-  line-height: 1em;
   margin: 15px;
+  border-radius: 10px;
 }
+
 
 #contatos{
-  font-size: 20px;
+  font-size: 1em;
+  display: block;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.301);
-  margin: 30px;
+  margin: 25px;
   font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#contatos > h2 {
+  font-size: 1.2em;
 }
 
 #contatos > h2 > a {
   text-decoration: none;
 }
 
+#contatos > h2 > a:hover {
+  text-decoration: underline;
+  background-color: rgba(11, 196, 35, 0.596);
+}
+
 a:hover {
   text-decoration: underline;
   color: red;
+}
+
+
+#descricao {
+  font-size: 1em;
+  display: block;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.301);
+  margin: 25px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 h2, h3{
@@ -79,7 +112,7 @@ div > p{
   padding: 35px;
 }
 
-#certificacoes > ul {
+ .conteiner > #aprendizado{
   list-style-type: '\2714\00A0\00A0';
   list-style-position: inside;
   columns: 2;
@@ -90,15 +123,15 @@ div > p{
   text-align: center;
 }
 
-#diplomas > ul {
+.conteiner > #certificacoes {
+  columns: 2;
   list-style-position: inside;
-  line-height: 2em;
+  line-height: 3em;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.301);
-  margin: 15px;
-  font-size: 23px;
-  padding: 35px;
-  
+  margin: 25px;
+  font-size: 1em;
+  padding: 10px;
 }
 
 #skills > p {
@@ -132,6 +165,11 @@ div > p{
 
 #videos{
   text-align: center;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+
 }
 
 #logostec{
